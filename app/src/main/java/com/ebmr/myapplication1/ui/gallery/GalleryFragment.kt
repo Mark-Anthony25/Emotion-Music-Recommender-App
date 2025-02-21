@@ -65,8 +65,6 @@ class GalleryFragment : Fragment() {
         return root
     }
 
-
-
     private fun setupButtonListeners() {
         binding.buttonAll.setOnClickListener { loadSongs("All") }
         binding.buttonAngry.setOnClickListener { loadSongs("anger") }
